@@ -1,14 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  reactStrictMode: true,
-  images: {
-    remotePatterns: [
-      {
-        protocol: 'https',
-        hostname: 'images.unsplash.com',
-      },
-    ],
-  },
+  output: 'export',
+  // basePath: '/aswinraja-portfolio.github.io',
+  // assetPrefix: '/aswinraja-portfolio.github.io',
 };
-
 export default nextConfig;
